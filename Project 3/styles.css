@@ -7,17 +7,22 @@ body {
 
 h1,
 h2,
-h3 {
+legend {
   font: 700 1.5rem/20px 'Merriweather', serif;
 }
 
 h2,
-h3 {
+legend {
   color: #2d3945;
 }
 
-h3 {
+legend {
   margin-bottom: 5vh;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
 }
 
 p,
@@ -186,7 +191,6 @@ footer {
   .row{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
   }
 
   .form_label {
@@ -215,7 +219,8 @@ footer {
   }
 
   #zip {
-    flex: 0.8;
+    flex: 1;
+    margin-right: 23vw;
   }
 
 }
